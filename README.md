@@ -1,0 +1,1 @@
+# Segmentacja-rynku-gier-wideo-oraz-analiza-trend-w
