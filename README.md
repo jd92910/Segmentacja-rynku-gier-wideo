@@ -16,3 +16,17 @@ Projekt został przygotowany w języku **Python 3.8+** i wymaga instalacji stand
 1. **Klonowanie/Wejście do katalogu projektu:**
    ```bash
    cd /home/yanoosh/Dokumenty/Dane_AI/Segmentacja-rynku-gier-wideo/
+   ```
+2. **Stworzenie środowiska i uruchomienie**
+    ```bash
+    python3 -m venv .env
+    source .env/bin/activate
+    ```
+3. **Instalacja zależności za pomocą managera pakietów pip:**
+    ```bash
+    pip install numpy pandas scipy matplotlib
+    ```
+4. **Uruchomienie głównego programu:**
+    ```bash
+    python3 main.py
+    ```
