@@ -31,4 +31,21 @@ Liczba unikalnych tytułów gier w bazie: 1092
     4. Square Enix
     5. Capcom
 
-[D] Poprawny wykres został zapisany jako plik: 'porownanie_plays_playing_poprawne.png'
+[D] Poprawny wykres został zapisany jako plik: 'porownanie_plays_playing.png'
+
+--- WYNIKI SEGMENTACJI RYNKOWEJ K-MEANS ---
+
+[Klaster 0] Liczba gier: 205
+  -> Średnia ocena: 3.99/5
+  -> Średnia liczba rozegrań: 12198
+  -> Przykładowe gry: ['Elden Ring', 'Hades', 'The Legend of Zelda: Breath of the Wild']
+
+[Klaster 1] Liczba gier: 528
+  -> Średnia ocena: 3.93/5
+  -> Średnia liczba rozegrań: 3076
+  -> Przykładowe gry: ['Deltarune: Chapter 2', 'Fire Emblem Engage', 'Pokémon Violet']
+
+[Klaster 2] Liczba gier: 353
+  -> Średnia ocena: 3.05/5
+  -> Średnia liczba rozegrań: 3802
+  -> Przykładowe gry: ['Genshin Impact', 'Overwatch 2', 'Halo Infinite']
