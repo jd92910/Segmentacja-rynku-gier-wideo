@@ -39,7 +39,7 @@ def generuj_raporty_i_wykres(df_unikalne, wybrany_gatunek='RPG'):
     ax.bar(x - width/2, top10['plays_count'], width, label='Ukończone / Rozegrane (Plays)', color='#1f77b4')
     ax.bar(x + width/2, top10['playing_count'], width, label='Wciąż grane (Playing)', color='#ff7f0e')
     
-    ax.set_title('Porównanie liczby gier rozegranych do wciąż granych — POPRAWIONE TOP 10', fontsize=14, pad=15)
+    ax.set_title('Porównanie liczby gier rozegranych do wciąż granych — TOP 10', fontsize=14, pad=15)
     ax.set_xlabel('Tytuł gry', fontsize=12)
     ax.set_xticks(x)
     ax.set_xticklabels(tytuly_skrocone, rotation=25, ha='right')
