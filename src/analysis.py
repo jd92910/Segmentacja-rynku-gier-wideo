@@ -51,6 +51,6 @@ def generuj_raporty_i_wykres(df_unikalne, wybrany_gatunek='RPG'):
     ax.set_ylabel('Liczba operacji/graczy (Skala logarytmiczna)', fontsize=12)
 
     plt.tight_layout()
-    plt.savefig('porownanie_plays_playing_poprawne.png', dpi=300)
-    print(f"\n[D] Poprawny wykres został zapisany jako plik: 'porownanie_plays_playing_poprawne.png'")
+    plt.savefig('porownanie_plays_playing.png', dpi=300)
+    print(f"\n[D] Poprawny wykres został zapisany jako plik: 'porownanie_plays_playing.png'")
     plt.close()
